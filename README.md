@@ -13,6 +13,7 @@ Take a look at the code in the __greet.js__ file.
 If you run the file with `node greet.js`, you will see the following printed
 to the terminal:
 
+
 ```plaintext
 undefined [object Object]!
 undefined [object Object]!
