@@ -6,8 +6,8 @@ const gradesAvg = grades.getAverage;
 // You can modify the following lines
 // let grades1Average = gradesAvg(grades);
 // let grades1WithBonus = gradesAvg(grades, [20]);
-gradesAvg.apply(grades);
-gradesAvg.apply(grades, [20]);
+let grades1Average = gradesAvg.apply(grades);
+let grades1WithBonus = gradesAvg.apply(grades, [20]);
 
 console.log('Grade list');
 console.log(grades1Average);     // should print out: 58
